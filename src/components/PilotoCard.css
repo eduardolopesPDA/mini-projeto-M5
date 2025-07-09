@@ -1,0 +1,51 @@
+.piloto-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.piloto-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.piloto-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+
+.piloto-header h3 {
+  margin: 0;
+  color: #e10600;
+}
+
+.numero-carro {
+  background-color: #333;
+  color: white;
+  padding: 3px 8px;
+  border-radius: 50%;
+  font-size: 0.9rem;
+}
+
+.piloto-body p {
+  margin: 5px 0;
+}
+
+.piloto-stats {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+  padding-top: 10px;
+  border-top: 1px solid #eee;
+}
+
+.piloto-stats span {
+  font-size: 1.1rem;
+}
