@@ -14,4 +14,25 @@ Este projeto é uma aplicação web desenvolvida com **React + TypeScript**, que
 - [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
 
 ## 📂 Estrutura
+src/
+├── components/
+│ └── PilotosList.tsx
+├── App.tsx
+├── App.css
+├── App.test.tsx
+├── index.tsx
+└── index.css
+
+
+## ⚙️ Funcionalidades
+
+- Listagem dinâmica de pilotos da temporada 2025.
+- Estilização responsiva e amigável.
+- Teste básico de renderização com React Testing Library.
+- Integração com API externa.
+
+
+
+
+
 
